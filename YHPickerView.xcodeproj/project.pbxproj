@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F00E44ED228D6D3F00CFE972 /* YHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F00E44EC228D6D3F00CFE972 /* YHButton.m */; };
+		F00E44F1228D709800CFE972 /* RHPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F00E44EF228D709800CFE972 /* RHPickerView.m */; };
+		F0183B5422812E55004981EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0183B5322812E55004981EA /* AppDelegate.m */; };
+		F0183B5722812E55004981EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0183B5622812E55004981EA /* ViewController.m */; };
+		F0183B5A22812E55004981EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0183B5822812E55004981EA /* Main.storyboard */; };
+		F0183B5C22812E56004981EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0183B5B22812E56004981EA /* Assets.xcassets */; };
+		F0183B5F22812E56004981EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0183B5D22812E56004981EA /* LaunchScreen.storyboard */; };
+		F0183B6222812E56004981EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0183B6122812E56004981EA /* main.m */; };
+		F0183B6C22812E57004981EA /* YHPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0183B6B22812E57004981EA /* YHPickerViewTests.m */; };
+		F0183B7722812E57004981EA /* YHPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0183B7622812E57004981EA /* YHPickerViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0183B6822812E57004981EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0183B4722812E55004981EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0183B4E22812E55004981EA;
+			remoteInfo = YHPickerView;
+		};
+		F0183B7322812E57004981EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0183B4722812E55004981EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0183B4E22812E55004981EA;
+			remoteInfo = YHPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F00E44EB228D6D3F00CFE972 /* YHButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHButton.h; sourceTree = "<group>"; };
+		F00E44EC228D6D3F00CFE972 /* YHButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHButton.m; sourceTree = "<group>"; };
+		F00E44EF228D709800CFE972 /* RHPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHPickerView.m; sourceTree = "<group>"; };
+		F00E44F0228D709800CFE972 /* RHPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHPickerView.h; sourceTree = "<group>"; };
+		F0183B4F22812E55004981EA /* YHPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0183B5222812E55004981EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0183B5322812E55004981EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0183B5522812E55004981EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0183B5622812E55004981EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0183B5922812E55004981EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0183B5B22812E56004981EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0183B5E22812E56004981EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0183B6022812E56004981EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0183B6122812E56004981EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0183B6722812E57004981EA /* YHPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0183B6B22812E57004981EA /* YHPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHPickerViewTests.m; sourceTree = "<group>"; };
+		F0183B6D22812E57004981EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0183B7222812E57004981EA /* YHPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0183B7622812E57004981EA /* YHPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHPickerViewUITests.m; sourceTree = "<group>"; };
+		F0183B7822812E57004981EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0183B4C22812E55004981EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0183B6422812E57004981EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0183B6F22812E57004981EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F00E44EE228D709800CFE972 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				F00E44EF228D709800CFE972 /* RHPickerView.m */,
+				F00E44F0228D709800CFE972 /* RHPickerView.h */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		F0183B4622812E55004981EA = {
+			isa = PBXGroup;
+			children = (
+				F00E44EE228D709800CFE972 /* source */,
+				F0183B5122812E55004981EA /* YHPickerView */,
+				F0183B6A22812E57004981EA /* YHPickerViewTests */,
+				F0183B7522812E57004981EA /* YHPickerViewUITests */,
+				F0183B5022812E55004981EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0183B5022812E55004981EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0183B4F22812E55004981EA /* YHPickerView.app */,
+				F0183B6722812E57004981EA /* YHPickerViewTests.xctest */,
+				F0183B7222812E57004981EA /* YHPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0183B5122812E55004981EA /* YHPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				F00E44EB228D6D3F00CFE972 /* YHButton.h */,
+				F00E44EC228D6D3F00CFE972 /* YHButton.m */,
+				F0183B5222812E55004981EA /* AppDelegate.h */,
+				F0183B5322812E55004981EA /* AppDelegate.m */,
+				F0183B5522812E55004981EA /* ViewController.h */,
+				F0183B5622812E55004981EA /* ViewController.m */,
+				F0183B5822812E55004981EA /* Main.storyboard */,
+				F0183B5B22812E56004981EA /* Assets.xcassets */,
+				F0183B5D22812E56004981EA /* LaunchScreen.storyboard */,
+				F0183B6022812E56004981EA /* Info.plist */,
+				F0183B6122812E56004981EA /* main.m */,
+			);
+			path = YHPickerView;
+			sourceTree = "<group>";
+		};
+		F0183B6A22812E57004981EA /* YHPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0183B6B22812E57004981EA /* YHPickerViewTests.m */,
+				F0183B6D22812E57004981EA /* Info.plist */,
+			);
+			path = YHPickerViewTests;
+			sourceTree = "<group>";
+		};
+		F0183B7522812E57004981EA /* YHPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0183B7622812E57004981EA /* YHPickerViewUITests.m */,
+				F0183B7822812E57004981EA /* Info.plist */,
+			);
+			path = YHPickerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0183B4E22812E55004981EA /* YHPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0183B7B22812E57004981EA /* Build configuration list for PBXNativeTarget "YHPickerView" */;
+			buildPhases = (
+				F0183B4B22812E55004981EA /* Sources */,
+				F0183B4C22812E55004981EA /* Frameworks */,
+				F0183B4D22812E55004981EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHPickerView;
+			productName = YHPickerView;
+			productReference = F0183B4F22812E55004981EA /* YHPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0183B6622812E57004981EA /* YHPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0183B7E22812E57004981EA /* Build configuration list for PBXNativeTarget "YHPickerViewTests" */;
+			buildPhases = (
+				F0183B6322812E57004981EA /* Sources */,
+				F0183B6422812E57004981EA /* Frameworks */,
+				F0183B6522812E57004981EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0183B6922812E57004981EA /* PBXTargetDependency */,
+			);
+			name = YHPickerViewTests;
+			productName = YHPickerViewTests;
+			productReference = F0183B6722812E57004981EA /* YHPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0183B7122812E57004981EA /* YHPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0183B8122812E57004981EA /* Build configuration list for PBXNativeTarget "YHPickerViewUITests" */;
+			buildPhases = (
+				F0183B6E22812E57004981EA /* Sources */,
+				F0183B6F22812E57004981EA /* Frameworks */,
+				F0183B7022812E57004981EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0183B7422812E57004981EA /* PBXTargetDependency */,
+			);
+			name = YHPickerViewUITests;
+			productName = YHPickerViewUITests;
+			productReference = F0183B7222812E57004981EA /* YHPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0183B4722812E55004981EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ruaho;
+				TargetAttributes = {
+					F0183B4E22812E55004981EA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F0183B6622812E57004981EA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F0183B4E22812E55004981EA;
+					};
+					F0183B7122812E57004981EA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F0183B4E22812E55004981EA;
+					};
+				};
+			};
+			buildConfigurationList = F0183B4A22812E55004981EA /* Build configuration list for PBXProject "YHPickerView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0183B4622812E55004981EA;
+			productRefGroup = F0183B5022812E55004981EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0183B4E22812E55004981EA /* YHPickerView */,
+				F0183B6622812E57004981EA /* YHPickerViewTests */,
+				F0183B7122812E57004981EA /* YHPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0183B4D22812E55004981EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0183B5F22812E56004981EA /* LaunchScreen.storyboard in Resources */,
+				F0183B5C22812E56004981EA /* Assets.xcassets in Resources */,
+				F0183B5A22812E55004981EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0183B6522812E57004981EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0183B7022812E57004981EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0183B4B22812E55004981EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0183B5722812E55004981EA /* ViewController.m in Sources */,
+				F0183B6222812E56004981EA /* main.m in Sources */,
+				F00E44ED228D6D3F00CFE972 /* YHButton.m in Sources */,
+				F00E44F1228D709800CFE972 /* RHPickerView.m in Sources */,
+				F0183B5422812E55004981EA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0183B6322812E57004981EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0183B6C22812E57004981EA /* YHPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0183B6E22812E57004981EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0183B7722812E57004981EA /* YHPickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0183B6922812E57004981EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0183B4E22812E55004981EA /* YHPickerView */;
+			targetProxy = F0183B6822812E57004981EA /* PBXContainerItemProxy */;
+		};
+		F0183B7422812E57004981EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0183B4E22812E55004981EA /* YHPickerView */;
+			targetProxy = F0183B7322812E57004981EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0183B5822812E55004981EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0183B5922812E55004981EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0183B5D22812E56004981EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0183B5E22812E56004981EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0183B7922812E57004981EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0183B7A22812E57004981EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0183B7C22812E57004981EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JX84U25WS9;
+				INFOPLIST_FILE = YHPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ruaho.YHPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0183B7D22812E57004981EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JX84U25WS9;
+				INFOPLIST_FILE = YHPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ruaho.YHPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0183B7F22812E57004981EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JX84U25WS9;
+				INFOPLIST_FILE = YHPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ruaho.YHPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHPickerView.app/YHPickerView";
+			};
+			name = Debug;
+		};
+		F0183B8022812E57004981EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JX84U25WS9;
+				INFOPLIST_FILE = YHPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ruaho.YHPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHPickerView.app/YHPickerView";
+			};
+			name = Release;
+		};
+		F0183B8222812E57004981EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JX84U25WS9;
+				INFOPLIST_FILE = YHPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ruaho.YHPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YHPickerView;
+			};
+			name = Debug;
+		};
+		F0183B8322812E57004981EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JX84U25WS9;
+				INFOPLIST_FILE = YHPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ruaho.YHPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YHPickerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0183B4A22812E55004981EA /* Build configuration list for PBXProject "YHPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0183B7922812E57004981EA /* Debug */,
+				F0183B7A22812E57004981EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0183B7B22812E57004981EA /* Build configuration list for PBXNativeTarget "YHPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0183B7C22812E57004981EA /* Debug */,
+				F0183B7D22812E57004981EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0183B7E22812E57004981EA /* Build configuration list for PBXNativeTarget "YHPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0183B7F22812E57004981EA /* Debug */,
+				F0183B8022812E57004981EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0183B8122812E57004981EA /* Build configuration list for PBXNativeTarget "YHPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0183B8222812E57004981EA /* Debug */,
+				F0183B8322812E57004981EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0183B4722812E55004981EA /* Project object */;
+}
